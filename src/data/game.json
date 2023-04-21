@@ -251,7 +251,7 @@
                 {
                     "text": "No",
                     "audio": "",
-                    "alert": "Good job! The next day your friend tells about an uncomfotable situation that happened on the Discord."
+                    "alert": "Good job! The next day your friend tells about an uncomfotable situation that happened on the Discord.",
                     "action": "17"
                 }
             ]
@@ -263,7 +263,7 @@
                 {
                     "text": "Yes",
                     "audio": "",
-                    "alert": "Good job! The next day your friend tells about an uncomfotable situation that happened on the Discord."
+                    "alert": "Good job! The next day your friend tells about an uncomfotable situation that happened on the Discord.",
                     "action": "16"
                 },
                 {
