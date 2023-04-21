@@ -22,9 +22,8 @@
             ]
         },
         "2": {
-            "text": "As you set up your new phone you are asked if you want a passcode.",
+            "text": "Would you like to make your passcode 4 or 6 digits?",
             "audio": "",
-            "sub_text": "Would you like to make your passcode 4 or 6 digits?",
             "options": [
                 {
                     "text": "You choose a 4 digit passcode.",
@@ -149,14 +148,14 @@
                 {
                     "text": "Report the video",
                     "audio": "",
-                    "alert": "It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video (include how-to). To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch (including how-to).",
+                    "alert": "It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "0"
                 },
                 {
                     "text": "Don't report the video",
                     "audio": "",
-                    "alert": "Reporting videos that are clearly spreading incorrect or biased information makes sure that those messages don't spread to other users of the platform. It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video (include how-to). To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch (including how-to).",
+                    "alert": "Reporting videos that are clearly spreading incorrect or biased information makes sure that those messages don't spread to other users of the platform. It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "1"
                 }
@@ -169,14 +168,14 @@
                 {
                     "text": "Report the video",
                     "audio": "",
-                    "alert": "It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video (include how-to). To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch (including how-to).",
+                    "alert": "It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "0"
                 },
                 {
                     "text": "Don't report the video",
                     "audio": "",
-                    "alert": "Reporting videos that are clearly spreading incorrect or biased information makes sure that those messages don't spread to other users of the platform. It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video (include how-to). To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch (including how-to).",
+                    "alert": "Reporting videos that are clearly spreading incorrect or biased information makes sure that those messages don't spread to other users of the platform. It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "1"
                 }
@@ -203,7 +202,7 @@
             ]
         },
         "12.1": {
-            "text": "What app would you like to download next.",
+            "text": "What app would you like to download?",
             "audio": "",
             "options": [
                 {
@@ -241,7 +240,7 @@
             ]
         },
         "13": {
-            "text": "Your friends ask you to join the discord with their friends, who you don't know very well. Do you join?",
+            "text": "Your friends ask you to join the Discord with their friends, who you don't know very well. Do you join?",
             "audio": "",
             "options": [
                 {
@@ -252,17 +251,19 @@
                 {
                     "text": "No",
                     "audio": "",
+                    "alert": "Good job! The next day your friend tells about an uncomfotable situation that happened on the Discord."
                     "action": "17"
                 }
             ]
         },
         "14": {
-            "text": "Your friend asks you to join the discord with their friends, who you don't know well. Do you join?",
+            "text": "Your friend asks you to join the Discord with their friends, who you don't know well. Do you join?",
             "audio": "",
             "options": [
                 {
                     "text": "Yes",
                     "audio": "",
+                    "alert": "Good job! The next day your friend tells about an uncomfotable situation that happened on the Discord."
                     "action": "16"
                 },
                 {
@@ -280,14 +281,14 @@
                     "text": "You argue with them",
                     "audio": "",
                     "Text": "You decided to argue with them, and the individual begins to make threats towards you.",
-                    "alert": "Especially on online platforms like discord, it is better to ignore and report individuals who engage in hate speech. This way you can keep yourself safe and help prevent this from happening again.",
+                    "alert": "Especially on online platforms like Discord, it is better to ignore and report individuals who engage in hate speech. This way you can keep yourself safe and help prevent this from happening again.",
                     "action": "17",
                     "score": "1"
                 },
                 {
                     "text": "Your report them",
                     "audio": "",
-                    "Text": "Good job! You reported that person and they were removed from the discord.",
+                    "Text": "Good job! You reported that person and they were removed from the Discord.",
                     "alert": "Reporting people who use hateful speech not only keeps you safe, but also everyone else who uses the platform. We all have a responsibility to keep gaming platforms safe.",
                     "action": "17",
                     "score": "0"
@@ -390,7 +391,6 @@
                 {
                     "text": "You don't add them back and delete the message.",
                     "audio": "",
-                    "alert": "(maybe add good job",
                     "action": "22",
                     "score": "0"
                 }
@@ -560,7 +560,7 @@
             ]
         },
         "29": {
-            "text": "After scrolling for a few minutes, a video that makes you uncomfortable. What do you do?",
+            "text": "After scrolling for a few minutes, you encounter a video that makes you uncomfortable. What do you do?",
             "audio": "",
             "options": [
                 {
