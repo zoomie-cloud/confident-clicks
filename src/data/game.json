@@ -606,7 +606,7 @@
                     "text": "In a public location.",
                     "audio": "",
                     "alert": "Good choice! It is safest to record videos in locations that do not provide viewers with any personal information about you or where you live.",
-                    "action": "-1",
+                    "action": "12.1",
                     "score": "0"
                 },
                 {
@@ -625,14 +625,14 @@
                     "text": "Film right away.",
                     "audio": "",
                     "alert": "Even though you may not have a lot of time, always make sure no personal info such as your home address, credit cards, or mail is shown in the background before you post a video. Whether your video goes viral or not, it is unsafe to have those personal details out for the public to see, and can be dangerous for you and your family.",
-                    "action": "-1",
+                    "action": "12.1",
                     "score": "1"
                 },
                 {
                     "text": "Check area and move items that show personal info.",
                     "audio": "",
                     "alert": "Before you post a video, make sure no personal info such as your home address, credit cards, or mail is shown in the background. Whether your video goes viral or not, it is unsafe to have those personal details out for the public to see, and can be dangerous for you and your family.",
-                    "action": "-1",
+                    "action": "12.1",
                     "score": "0"
                 }
             ]
@@ -640,7 +640,11 @@
         "-1": {
             "text": "Congratulations! You have successfully navigated the complicated world of owning your own phone. Of course, these are other issues you will face during your time online, but the skills you have learned throughout this program will help you stay safe online and be able to make good choices when new issues arise. The Internet and social media can be great places to connect with others and express yourself, as long as you handle the responsibility through Confident Clicks!",
             "audio": "",
-            "options": []
+            "options": [{
+                "text": "Back to Front Page",
+                "audio": "",
+                "action": "-1"
+            }]
         },
         "-2": {
             "text": "It's your birthday! You parents decided to take you out to dinner and there are a pile of presents waiting for you to open. You have one in particular that you really hope to get. Your friends and classmates are starting to get phones, and you are hoping to get one as well. This will provide you the ability to join social media and interact with your friends while you're home from school. You open the first present, and out comes your phone! Your parents trust that you are able to make responsible decisions and are ready for this milestone. However, getting a phone requires a lot of maturity and there are a lot of decisions that you will need to make along the way. You open and begin to set up your phone…",

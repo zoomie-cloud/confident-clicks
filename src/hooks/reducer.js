@@ -25,6 +25,12 @@ export const reducer = (state, action) => {
       };
     case NEW_QUESTION:
       let id = action.payload.question
+      if(state.visited.length === 4 && id == 12.1){
+        return {
+          ...state,
+          question: state.data.questions[-1],
+        };
+      }
       return {
         ...state,
         question: state.data.questions[id],

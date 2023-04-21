@@ -8,22 +8,28 @@ import {
   visitOption,
 } from "../hooks/actions";
 import { GlobalContext } from "../hooks/provider";
+import { useNavigate } from "react-router-dom";
 
 function Options({ options }) {
   const [state, dispatch] = React.useContext(GlobalContext);
+  const navigate = useNavigate();
 
-  const apps = ["YouTube","Minecraft","Snapchat","TikTok"]
+  const apps = ["YouTube", "Minecraft", "Snapchat", "TikTok"];
 
-  function isVisitied(app){
-    return state.visited.includes(app)
+  function isVisitied(app) {
+    return state.visited.includes(app);
   }
 
   function onClick(option) {
     dispatch(changeScore(option.score));
     dispatch(chooseOption(option));
 
-    if(apps.includes(option.text)){
-      dispatch(visitOption(option.text))
+    if (option.action == -1) {
+      navigate("/");
+    }
+
+    if (apps.includes(option.text)) {
+      dispatch(visitOption(option.text));
     }
 
     if (option.alert) {
@@ -33,15 +39,15 @@ function Options({ options }) {
     }
   }
 
-  function getButtonSize(count){
-    return (count == 2 ? "40%": "90%")
+  function getButtonSize(count) {
+    return count == 2 ? "40%" : "90%";
   }
 
   function renderOptions(options) {
     return options.map((option, index) => (
       <Col key={index} span={12}>
         <Button
-          ghost={!(isVisitied(option.text)) || false}
+          ghost={!isVisitied(option.text) || false}
           onClick={() => onClick(option)}
           shape="round"
           style={{
@@ -49,7 +55,7 @@ function Options({ options }) {
             width: "100%",
             marginTop: 5,
             whiteSpace: "normal",
-            borderColor: "white"
+            borderColor: "white",
           }}
           disabled={isVisitied(option.text)}
           type="primary"
@@ -65,7 +71,10 @@ function Options({ options }) {
 
   return (
     <Col flex="5">
-      <Row style={{ height: getButtonSize(options.length), width: "100%" }} gutter={[8, 8]}>
+      <Row
+        style={{ height: getButtonSize(options.length), width: "100%" }}
+        gutter={[8, 8]}
+      >
         {renderOptions(options)}
       </Row>
     </Col>
