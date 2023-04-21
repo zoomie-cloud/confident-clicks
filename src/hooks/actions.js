@@ -1,4 +1,4 @@
-import {CHANGE_MODAL, NEW_QUESTION, CHOOSE_OPTION, CHANGE_SCORE} from "../hooks/types"
+import {CHANGE_MODAL, NEW_QUESTION, CHOOSE_OPTION, CHANGE_SCORE, VISIT_OPTION} from "../hooks/types"
 
 const toggleModal = () => ({
   type: CHANGE_MODAL
@@ -18,6 +18,13 @@ const changeScore = (score=0) => ({
   },
 });
 
+const visitOption = (app) => ({
+  type: VISIT_OPTION,
+  payload: {
+    app
+  },
+});
+
 const chooseOption = (option) => ({
     type: CHOOSE_OPTION,
     payload: {
@@ -28,6 +35,7 @@ const chooseOption = (option) => ({
   export {
     toggleModal,
     changeQuestion,
+    visitOption,
     chooseOption,
     changeScore
   }

@@ -5,15 +5,27 @@ import {
   toggleModal,
   chooseOption,
   changeScore,
+  visitOption,
 } from "../hooks/actions";
 import { GlobalContext } from "../hooks/provider";
 
 function Options({ options }) {
   const [state, dispatch] = React.useContext(GlobalContext);
 
+  const apps = ["YouTube","Minecraft","Snapchat","TikTok"]
+
+  function isVisitied(app){
+    return state.visited.includes(app)
+  }
+
   function onClick(option) {
     dispatch(changeScore(option.score));
     dispatch(chooseOption(option));
+
+    if(apps.includes(option.text)){
+      dispatch(visitOption(option.text))
+    }
+
     if (option.alert) {
       dispatch(toggleModal());
     } else {
@@ -29,7 +41,7 @@ function Options({ options }) {
     return options.map((option, index) => (
       <Col key={index} span={12}>
         <Button
-        ghost
+          ghost={!(isVisitied(option.text)) || false}
           onClick={() => onClick(option)}
           shape="round"
           style={{
@@ -39,6 +51,7 @@ function Options({ options }) {
             whiteSpace: "normal",
             borderColor: "white"
           }}
+          disabled={isVisitied(option.text)}
           type="primary"
           block
         >

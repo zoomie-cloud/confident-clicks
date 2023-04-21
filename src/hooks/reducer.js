@@ -1,4 +1,4 @@
-import { CHANGE_MODAL, NEW_QUESTION, CHOOSE_OPTION, CHANGE_SCORE } from "../hooks/types";
+import { CHANGE_MODAL, NEW_QUESTION, CHOOSE_OPTION, CHANGE_SCORE, VISIT_OPTION } from "../hooks/types";
 import data from "../data/game.json";
 
 export const reducer = (state, action) => {
@@ -18,6 +18,11 @@ export const reducer = (state, action) => {
         ...state,
         option: action.payload.option,
       };
+    case VISIT_OPTION:
+      return {
+        ...state,
+        visited: [...state.visited, action.payload.app],
+      };
     case NEW_QUESTION:
       let id = action.payload.question
       return {
@@ -35,7 +40,7 @@ export const initialState = {
   data,
   question: data.questions[1],
   option: { score: null },
-  visited: null,
+  visited: [],
   topScore: 21,
   currentScore: 21
 };
