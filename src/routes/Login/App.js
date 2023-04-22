@@ -49,7 +49,7 @@ function Login() {
               <Button style={btnStyle}>Parent</Button>
             </Col>
             <Col style={{ margin: 10 }}>
-              <Button style={btnStyle} href="/intro">
+              <Button style={btnStyle} href="/rules">
                 Student
               </Button>
             </Col>

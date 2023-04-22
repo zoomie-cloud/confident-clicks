@@ -7,7 +7,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Intro } from "./containers";
+import { Intro, Rules } from "./containers";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/intro",
     element: <Intro />,
+  },
+  {
+    path: "/rules",
+    element: <Rules />,
   },
   {
     path: "/student",

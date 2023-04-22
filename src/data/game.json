@@ -1,5 +1,6 @@
 {
     "intro": "It's your birthday! You parents decided to take you out to dinner and there are a pile of presents waiting for you to open. You have one in particular that you really hope to get. Your friends and classmates are starting to get phones, and you are hoping to get one as well. This will provide you the ability to join social media and interact with your friends while you're home from school. You open the first present, and out comes your phone! Your parents trust that you are able to make responsible decisions and are ready for this milestone. However, getting a phone requires a lot of maturity and there are a lot of decisions that you will need to make along the way. You open and begin to set up your phone…",
+    "rules":"Read the Scenario Given. Based on Your Knowledge Choose an Option. Make Sure to Watch How Your Clicks Affect Your Battery. The goal is to keep battery in the Green",
     "questions": {
         "1": {
             "text": "As you set up your new phone you are asked if you want a passcode.",
