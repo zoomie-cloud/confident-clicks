@@ -1,10 +1,20 @@
-import { Col, Layout, Row, Card, Typography, Button, Image } from "antd";
+import React, {useContext, useEffect} from 'react'
+import { Col, Layout, Row, Card, Typography, Button, Image, Space } from "antd";
 import game from "../data/game.json";
 import Phone from "../assets/img/iphone.png";
 import { Footer } from "antd/es/layout/layout";
+import { SoundFilled } from "@ant-design/icons";
+import { GlobalContext } from "../hooks/provider";
+import { changeAudio } from '../hooks/actions';
 
 const { Content } = Layout;
 function Intro() {
+  const [state, dispatch] = useContext(GlobalContext)
+  
+  useEffect(()=>{
+    dispatch(changeAudio("Intro"))
+  },[])
+  
   return (
     <Layout style={{ backgroundColor: "black", height: "100vh" }}>
       <Content style={{ padding: 20 }}>
@@ -30,6 +40,11 @@ function Intro() {
               >
                 {game.intro}
               </Typography.Title>
+              <Row block align="center">
+                <Space>
+                  <SoundFilled style={{ color: "red" }} />
+                </Space>
+              </Row>
             </Card>
           </Col>
           <Col flex="1">

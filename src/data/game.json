@@ -4,12 +4,12 @@
     "questions": {
         "1": {
             "text": "As you set up your new phone you are asked if you want a passcode.",
-            "audio": "",
+            "audio": "1a",
             "sub_text": "What do you choose?",
             "options": [
                 {
                     "text": "You choose not to put a passcode on your phone.",
-                    "audio": "",
+                    "audio": "1b",
                     "alert": "It is not a great idea to leave your phone completely unprotected! Even adding a short passcode makes sure that no one can easily access your phone and the information on it.",
                     "action": "3",
                     "score": "1"
@@ -24,18 +24,18 @@
         },
         "2": {
             "text": "Would you like to make your passcode 4 or 6 digits?",
-            "audio": "",
+            "audio": "2a",
             "options": [
                 {
                     "text": "You choose a 4 digit passcode.",
-                    "audio": "",
+                    "audio": "2b",
                     "alert": "Creating a six-digit password is a good idea, as longer passwords are more secure.",
                     "action": "3",
                     "score": "1"
                 },
                 {
                     "text": "Create a six-digit password.",
-                    "audio": "",
+                    "audio": "2c",
                     "alert": "Good choice! Creating a six-digit password is a good idea, as longer passwords are more secure.",
                     "action": "3",
                     "score": "0"
@@ -44,18 +44,18 @@
         },
         "3": {
             "text": "Next, you have to choose a wifi network to join. You see an unlocked wifi network that looks like it belongs to your neighbors, this would be easier than going upstairs to ask your mom for the password. Do you....",
-            "audio": "",
+            "audio": "3a",
             "options": [
                 {
                     "text": "Join your unsecure neighbors network.",
-                    "audio": "",
+                    "audio": "3b",
                     "alert": "Although public networks are often more convenient as you don't have to put in a password, it is possible that using these networks will allow others to see what you do on your device. It is always more secure to use a password-protected private network.",
                     "action": "4",
                     "score": "1"
                 },
                 {
                     "text": "Go upstairs and ask your mom for the password to the secure wifi.",
-                    "audio": "",
+                    "audio": "3c",
                     "alert": "Good choice! Although public wifi is convenient, it is possible that using these networks will allow others to see what you do on your device. It is always more secure to use a password-protected private network.",
                     "action": "4",
                     "score": "0"
@@ -64,18 +64,18 @@
         },
         "4": {
             "text": "A notification pops up asking if you want the apps on the phone to track what you do. Do you…",
-            "audio": "",
+            "audio": "4a",
             "options": [
                 {
                     "text": "Click yes: allow apps to track",
-                    "audio": "",
+                    "audio": "4b",
                     "alert": "When apps store a user's personal information, including their location, It is possible that this information could be publicly released, in what is called a data breach. For your personal privacy and safety, it is always safer not to allow apps to track you.",
                     "action": "12.1",
                     "score": "1"
                 },
                 {
                     "text": "Click no: don't allow apps to track",
-                    "audio": "",
+                    "audio": "4c",
                     "alert": "Smart choice! When apps store a user's personal information, including their location, It is possible that this information could be publicly released, in what is called a data breach. For your personal privacy and safety, it is always safer not to allow apps to track you.",
                     "action": "12.1",
                     "score": "0"
@@ -84,18 +84,18 @@
         },
         "6": {
             "text": "You open Youtube, what is the first video you want to watch?",
-            "audio": "",
+            "audio": "6a",
             "options": [
                 {
                     "text": "A Sports Video",
-                    "audio": "",
+                    "audio": "6b",
                     "alert": "Social media algorithms are constantly working to suggest content that is interesting to you. For example, if you watch several vlogs or sports videos, Youtube will suggest more videos on those topics based on your viewing history. Popular videos that receive a lot of user interaction, including likes and dislikes, may also be recommended to you. The algorithm is not necessarily bad, but it is important to know how it works to control your online behavior.",
                     "Text": "After watching a few videos about sports, you come across a video about why boys are better at sports than girls…",
                     "action": "7"
                 },
                 {
                     "text": "A Day-In-the-Life",
-                    "audio": "",
+                    "audio": "6c",
                     "alert": "Social media algorithms are constantly working to suggest content that is interesting to you. For example, if you watch several vlogs or sports videos, Youtube will suggest more videos on those topics based on your viewing history. Popular videos that receive a lot of user interaction, including likes and dislikes, may also be recommended to you. The algorithm is not necessarily bad, but it is important to know how it works to control your online behavior.",
                     "Text": "After watching a few more vlogs, you come across a video talking about why doing your homework is dumb and why you shouldn't do it anymore…",
                     "action": "8"
@@ -104,18 +104,18 @@
         },
         "7": {
             "text": "The account that made this video has the username @girlssuckatsports. Do you…",
-            "audio": "",
+            "audio": "7a",
             "options": [
                 {
                     "text": "Look at the page of the creator to make sure they're trustworthy",
-                    "audio": "",
+                    "audio": "7b",
                     "alert": "Good choice! It is always smart to look into the creators of the content you watch. Not all content on YouTube is accurate. Creators can be biased, meaning they talk about topics and people in an unfair, and often untrue, way.",
                     "action": "9",
                     "score": "0"
                 },
                 {
                     "text": "Trust the creator and move on to the next video.",
-                    "audio": "",
+                    "audio": "7c",
                     "alert": "It is always smart to look into the creators of the content you watch. Not all content on YouTube is accurate. Creators can be biased, meaning they talk about topics and people in an unfair, and often untrue, way.",
                     "action": "9",
                     "score": "1"
@@ -124,18 +124,18 @@
         },
         "8": {
             "text": "The account that made this video has the username @schoolisstupid. Do you…",
-            "audio": "",
+            "audio": "8a",
             "options": [
                 {
                     "text": "Look at the page of the creator to make sure they're trustworthy.",
-                    "audio": "",
+                    "audio": "8b",
                     "alert": "Good choice! It is always smart to look into the creators of the content you watch. Not all content on YouTube is accurate. Creators can be biased, meaning they talk about topics and people in an unfair, and often untrue, way.",
                     "action": "10",
                     "score": "0"
                 },
                 {
                     "text": "Trust the creator and move on to the next video.",
-                    "audio": "",
+                    "audio": "8c",
                     "alert": "It is always smart to look into the creators of the content you watch. Not all content on YouTube is accurate. Creators can be biased, meaning they talk about topics and people in an unfair, and often untrue, way.",
                     "action": "10",
                     "score": "1"
@@ -144,18 +144,18 @@
         },
         "9": {
             "text": "This creator is obviously biased against girls and is saying very mean things, do you report the video?",
-            "audio": "",
+            "audio": "9a",
             "options": [
                 {
                     "text": "Report the video",
-                    "audio": "",
+                    "audio": "9b",
                     "alert": "It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "0"
                 },
                 {
                     "text": "Don't report the video",
-                    "audio": "",
+                    "audio": "9c",
                     "alert": "Reporting videos that are clearly spreading incorrect or biased information makes sure that those messages don't spread to other users of the platform. It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "1"
@@ -164,18 +164,18 @@
         },
         "10": {
             "text": "This creator is obviously biased against school and is saying very mean things about teachers, do you report the video?",
-            "audio": "",
+            "audio": "10a",
             "options": [
                 {
                     "text": "Report the video",
-                    "audio": "",
+                    "audio": "10b",
                     "alert": "It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "0"
                 },
                 {
                     "text": "Don't report the video",
-                    "audio": "",
+                    "audio": "10c",
                     "alert": "Reporting videos that are clearly spreading incorrect or biased information makes sure that those messages don't spread to other users of the platform. It is always important to check and make sure a source is credible. In this case, the username of the creator who made the video shows a clear bias. If the source makes you uncomfortable or is misleading, you should report the video. To prevent encountering such biased content in the future, turn off auto play and have more control over the content you select to watch.",
                     "action": "11",
                     "score": "1"
@@ -184,18 +184,18 @@
         },
         "11": {
             "text": "The next day, your friend sends you a funny video to watch. You watch the video and realize that it is making fun of another one of your friends...What do you do?",
-            "audio": "",
+            "audio": "11a",
             "options": [
                 {
                     "text": "The video is funny, so you share it with another one of your friends.",
-                    "audio": "",
+                    "audio": "11b",
                     "alert": "Sharing a video with your friend may not seem like a big deal, but often videos that seem funny are actually hurtful to others, especially when someone is being made fun of. It is important to think carefully about the content of a video before sharing it with other people.",
                     "action": "12.1",
                     "score": "1"
                 },
                 {
                     "text": "Don't share the video.",
-                    "audio": "",
+                    "audio": "11c",
                     "alert": "Good choice! Sharing a video with your friend may not seem like a big deal, but often videos that seem funny are actually hurtful to others, especially when someone is being made fun of. It is important to think carefully about the content of a video before sharing it with other people.",
                     "action": "12.1",
                     "score": "0"
@@ -204,7 +204,7 @@
         },
         "12.1": {
             "text": "What app would you like to download?",
-            "audio": "",
+            "audio": "12a",
             "options": [
                 {
                     "text": "YouTube",
@@ -242,16 +242,16 @@
         },
         "13": {
             "text": "Your friends ask you to join the Discord with their friends, who you don't know very well. Do you join?",
-            "audio": "",
+            "audio": "13a",
             "options": [
                 {
                     "text": "Yes",
-                    "audio": "",
+                    "audio": "13b",
                     "action": "15"
                 },
                 {
                     "text": "No",
-                    "audio": "",
+                    "audio": "13c",
                     "alert": "Good job! The next day your friend tells about an uncomfotable situation that happened on the Discord.",
                     "action": "17"
                 }
@@ -259,7 +259,7 @@
         },
         "14": {
             "text": "Your friend asks you to join the Discord with their friends, who you don't know well. Do you join?",
-            "audio": "",
+            "audio": "14a",
             "options": [
                 {
                     "text": "Yes",
@@ -276,11 +276,11 @@
         },
         "15": {
             "text": "Someone says something that makes you uncomfortable. Do you argue with them, or just report them?",
-            "audio": "",
+            "audio": "15a",
             "options": [
                 {
                     "text": "You argue with them",
-                    "audio": "",
+                    "audio": "15b",
                     "Text": "You decided to argue with them, and the individual begins to make threats towards you.",
                     "alert": "Especially on online platforms like Discord, it is better to ignore and report individuals who engage in hate speech. This way you can keep yourself safe and help prevent this from happening again.",
                     "action": "17",
@@ -288,7 +288,7 @@
                 },
                 {
                     "text": "Your report them",
-                    "audio": "",
+                    "audio": "15c",
                     "Text": "Good job! You reported that person and they were removed from the Discord.",
                     "alert": "Reporting people who use hateful speech not only keeps you safe, but also everyone else who uses the platform. We all have a responsibility to keep gaming platforms safe.",
                     "action": "17",
@@ -298,11 +298,11 @@
         },
         "16": {
             "text": "Someone says something that makes you uncomfortable. Do you argue with them, or report them?",
-            "audio": "",
+            "audio": "16a",
             "options": [
                 {
                     "text": "You argue with them.",
-                    "audio": "",
+                    "audio": "16b",
                     "Text": "You decided to argue with them, and the individual begins to make threats towards you.",
                     "alert": "Especially on online platforms like discord, it is better to ignore and report individuals who engage in hate speech. This way you can keep yourself safe and help prevent this from happening again.",
                     "action": "18",
@@ -310,7 +310,7 @@
                 },
                 {
                     "text": "You report them",
-                    "audio": "",
+                    "audio": "16c",
                     "Text": "Good job! You reported that person and they were removed from the discord.",
                     "alert": "Reporting and removing people from online platforms not only make them safer for you, but also for every other user. It is all of our responsibilities to keep gaming platforms safe.",
                     "action": "18",
@@ -320,18 +320,18 @@
         },
         "17": {
             "text": "Do you tell anyone about what happened?",
-            "audio": "",
+            "audio": "17a",
             "options": [
                 {
                     "text": "Yes, you talk to your parents about what happened.",
-                    "audio": "",
+                    "audio": "17b",
                     "alert": "It's a good idea to talk to your parents or another trusted adult when uncomfortable things happen online. They may be able to give some advice and be able to help you report the person who made you uncomfortable.",
                     "action": "12.1",
                     "score": "0"
                 },
                 {
                     "text": "No, you don't talk to your parents about what happened.",
-                    "audio": "",
+                    "audio": "17c",
                     "alert": "Maybe talk to another trusted adult instead. They are there to listen, give advice, and even help you figure out how to report the person who made you uncomfortable.",
                     "action": "12.1",
                     "score": "1"
@@ -340,18 +340,18 @@
         },
         "18": {
             "text": "Do you tell anyone what happened?",
-            "audio": "",
+            "audio": "18a",
             "options": [
                 {
                     "text": "Yes, you talk to your parents about what happened.",
-                    "audio": "",
+                    "audio": "18b",
                     "alert": "It's a good idea to talk to your parents or another trusted adult when uncomfortable things happen online. They may be able to give some advice and be able to help you report the person who made you uncomfortable.",
                     "action": "12.1",
                     "score": "0"
                 },
                 {
                     "text": "No, you don't talk to your parents about what happened.",
-                    "audio": "",
+                    "audio": "18c",
                     "alert": "Maybe talk to another trusted adult instead. They are there to listen, give advice, and even help you figure out how to report the person who made you uncomfortable.",
                     "action": "12.1",
                     "score": "1"
@@ -360,18 +360,18 @@
         },
         "19": {
             "text": "You open snapchat and are prompted to add some friends. Who do you add first?",
-            "audio": "",
+            "audio": "19a",
             "options": [
                 {
                     "text": "You just add friends that you already know.",
-                    "audio": "",
+                    "audio": "19b",
                     "alert": "Good choice! It is safer to only communicate online with people you know in real life.",
                     "action": "20",
                     "score": "0"
                 },
                 {
                     "text": "You add everyone on quick add whether you know them or not.",
-                    "audio": "",
+                    "audio": "19c",
                     "alert": "Communicating with strangers online can be dangerous. It is safer to only communicate online with people you know in real life.",
                     "action": "20",
                     "score": "1"
@@ -380,18 +380,16 @@
         },
         "20": {
             "text": "Someone random messages you. Do you add them back and respond to the message?",
-            "audio": "",
+            "audio": "20a",
             "options": [
                 {
                     "text": "You decide to add them back and respond to their message.",
-                    "audio": "",
                     "alert": "",
                     "action": "21",
                     "score": "1"
                 },
                 {
                     "text": "You don't add them back and delete the message.",
-                    "audio": "",
                     "action": "22",
                     "score": "0"
                 }
@@ -399,11 +397,11 @@
         },
         "21": {
             "text": "They continue the conversation and promise you a Roblox gift card, but you just need to give them your phone number for them to send it. Do you give it to them?",
-            "audio": "",
+            "audio": "21a",
             "options": [
                 {
                     "text": "You send them your phone number.",
-                    "audio": "",
+                    "audio": "21b",
                     "alert": "It is dangerous to share any personal information online, particularly with strangers. Adults often scam kids by promising a reward for getting your information (such as your phone number or your parent's credit card information). If you are asked to share personal information online, the safest option is to block that person and tell a trusted adult.",
                     "Text": "Because you gave them your phone number, they are able to hack your account and are now trying to scam your friends.",
                     "action": "22",
@@ -411,7 +409,7 @@
                 },
                 {
                     "text": "You stop talking to them.",
-                    "audio": "",
+                    "audio": "21c",
                     "alert": "Good choice! It is dangerous to share any personal information online, particularly with strangers. Adults often scam kids by promising a reward for getting your information (such as your phone number or your parent's credit card information). If you are asked to share personal information online, the safest option is to block that person and tell a trusted adult.",
                     "action": "22",
                     "score": "1"
@@ -420,18 +418,18 @@
         },
         "22": {
             "text": "Next, you are prompted to turn your location on for Snapmaps. Do you turn your location on or stay in ghost mode?",
-            "audio": "",
+            "audio": "22a",
             "options": [
                 {
                     "text": "Turn your location on for everyone.",
-                    "audio": "",
+                    "audio": "22b",
                     "alert": "The Snap Map allows your friends to see your exact location, down to the building you are in. This can lead to someone dangerous seeing your location. The safest option is to never share your location with anyone other than trusted adults.",
                     "action": "23",
                     "score": "1"
                 },
                 {
                     "text": "Stay in ghost mode.",
-                    "audio": "",
+                    "audio": "22c",
                     "alert": "Smart choice! The Snap Map allows your friends to see your exact location, down to the building you are in. This can lead to someone dangerous seeing your location. The safest option is to never share your location with anyone other than trusted adults.",
                     "action": "23",
                     "score": "0"
@@ -440,18 +438,18 @@
         },
         "23": {
             "text": "One of your friends really wants your location and asks you to turn it on just for them. Do you?",
-            "audio": "",
+            "audio": "23a",
             "options": [
                 {
                     "text": "You turn on your location just for them.",
-                    "audio": "",
+                    "audio": "23b",
                     "alert": "Even though this person is your friend, sharing your location with anyone other than trusted adults is not safe. It is possible that someone else could view your location through your friend's account. In this situation, you should tell your friend that your decision is not personal, but you do not share your location for safety reasons.",
                     "action": "24",
                     "score": "1"
                 },
                 {
                     "text": "You decide to not turn on your location for them.",
-                    "audio": "",
+                    "audio": "23c",
                     "alert": "Good choice! Even though this person is your friend, sharing your location with anyone other than trusted adults is not safe. It is possible that someone else could view your location through your friend's account.",
                     "action": "24",
                     "score": "0"
@@ -460,11 +458,11 @@
         },
         "24": {
             "text": "You really want to tell your friend about your secret crush and you don't think it can wait until you see them in school tomorrow. Do you just tell them about it over snap?",
-            "audio": "",
+            "audio": "24a",
             "options": [
                 {
                     "text": "You can't wait, and send a snap telling them all about your crush.",
-                    "audio": "",
+                    "audio": "24b",
                     "alert": "Even if you trust your friend, information shared online is never fully private. People can easily take screenshots or photos with another device of what you say. It is always a better idea to share private information in person.",
                     "Text": "Your friend screenshots your snap and shows it to your crush, and now they know everything…",
                     "action": "12.1",
@@ -472,7 +470,7 @@
                 },
                 {
                     "text": "You decide it would be better to wait, and tell them at school the next day.",
-                    "audio": "",
+                    "audio": "24c",
                     "alert": "Good choice! Information shared online is never fully private, as people can easily take screenshots or photos with another device of what you say. It is always a better idea to share private information in person.",
                     "action": "12.1",
                     "score": "1"
@@ -481,18 +479,18 @@
         },
         "25": {
             "text": "You open TikTok, do you create a private or public account?",
-            "audio": "",
+            "audio": "25a",
             "options": [
                 {
                     "text": "You want to create a private account.",
-                    "audio": "",
+                    "audio": "25b",
                     "alert": "Smart choice! Having a private account means that only the people you allow to follow you can view your posts. This helps keep dangerous people from viewing your page.",
                     "action": "26",
                     "score": "0"
                 },
                 {
                     "text": "You want to create a public account.",
-                    "audio": "",
+                    "audio": "25c",
                     "alert": "Although having a public account may not seem like a big deal, it is possible that dangerous people can view your TikTok page. Having a private account means that only the people you allow to follow you can view your posts.",
                     "action": "27",
                     "score": "1"
@@ -501,18 +499,18 @@
         },
         "26": {
             "text": "Next, you have to decide whether you want to link your other social media accounts to your TikTok account.",
-            "audio": "",
+            "audio": "26a",
             "options": [
                 {
                     "text": "You decide to link your other social media accounts.",
-                    "audio": "",
+                    "audio": "26b",
                     "alert": "Linking your social media accounts can be dangerous as it would make it easier for a hacker to hack all of your profiles and learn more about your identity.",
                     "action": "28",
                     "score": "1"
                 },
                 {
                     "text": "You decide not to link your other social media accounts.",
-                    "audio": "",
+                    "audio": "26c",
                     "alert": "Smart choice! Linking your social media accounts can be dangerous as it would make it easier for a hacker to hack all of your profiles and learn more about your identity.",
                     "action": "28",
                     "score": "0"
@@ -521,18 +519,18 @@
         },
         "27": {
             "text": "You need to pick a profile picture. What do you choose?",
-            "audio": "",
+            "audio": "27a",
             "options": [
                 {
                     "text": "You pick a picture of your pet.",
-                    "audio": "",
+                    "audio": "27b",
                     "alert": "Good choice! It's always safer to choose a profile picture that is not of your face.",
                     "action": "28",
                     "score": "1"
                 },
                 {
                     "text": "You pick a selfie.",
-                    "audio": "",
+                    "audio": "27c",
                     "alert": "Instead of making a picture of yourself public online, it would be safer to choose another profile picture, such as one of your pet.",
                     "action": "28",
                     "score": "1"
@@ -541,11 +539,11 @@
         },
         "28": {
             "text": "You begin to scroll and an \"outfit of the day\" video comes up. Are you interested?",
-            "audio": "",
+            "audio": "28a",
             "options": [
                 {
                     "text": "Yes, you are interested in the video.",
-                    "audio": "",
+                    "audio": "28b",
                     "Text": "You decide to like the video.",
                     "alert": "Hitting \"like\" on a video communicates to the app that you are interested in that content, and your feed will adapt to show more content that the app thinks is similar.",
                     "action": "29",
@@ -553,7 +551,7 @@
                 },
                 {
                     "text": "No, you are not interested in the video.",
-                    "audio": "",
+                    "audio": "28c",
                     "Text": "You hit \"not interested\".",
                     "alert": "Hitting \"not interested\" tells the app that you do not want to see similar content, and your feed will adapt to avoid similar content.",
                     "action": "29"
@@ -562,11 +560,11 @@
         },
         "29": {
             "text": "After scrolling for a few minutes, you encounter a video that makes you uncomfortable. What do you do?",
-            "audio": "",
+            "audio": "29a",
             "options": [
                 {
                     "text": "You like the video.",
-                    "audio": "",
+                    "audio": "29b",
                     "Text": "This option brought up a video that is actively harmful to you.",
                     "alert": "Liking videos containing harmful content means that similar, and more extreme content, will continue to show up on your feed. This content can be hateful and targeted, and can put you in dangerous situations. Make sure not to like videos that are violent, harmful or make you uncomfortable.",
                     "action": "31",
@@ -574,7 +572,7 @@
                 },
                 {
                     "text": "You avoid the video.",
-                    "audio": "",
+                    "audio": "29c",
                     "action": "30",
                     "score": "1"
                 }
@@ -582,7 +580,7 @@
         },
         "30": {
             "text": "You avoid the video, do you also want to report it?",
-            "audio": "",
+            "audio": "30a",
             "options": [
                 {
                     "text": "You choose to ignore the video and keep scrolling.",
@@ -592,7 +590,7 @@
                 },
                 {
                     "text": "You choose to report the video.",
-                    "audio": "",
+                    "audio": "30b",
                     "alert": "Reporting extreme content that makes you uncomfortable helps make sure that content is shown to less people and make sure that your feed doesn't include similar content. Taking action keeps you and other users safe.",
                     "action": "31",
                     "score": "0"
@@ -601,11 +599,11 @@
         },
         "31": {
             "text": "You want to participate in a trend. Where should you record your video?",
-            "audio": "",
+            "audio": "31a",
             "options": [
                 {
                     "text": "In a public location.",
-                    "audio": "",
+                    "audio": "31b",
                     "alert": "Good choice! It is safest to record videos in locations that do not provide viewers with any personal information about you or where you live.",
                     "action": "12.1",
                     "score": "0"
@@ -620,18 +618,18 @@
         },
         "32": {
             "text": "After deciding to film in your home, do you want to film right away or check the area around you and move any items that show your personal information?",
-            "audio": "",
+            "audio": "32a",
             "options": [
                 {
                     "text": "Film right away.",
-                    "audio": "",
+                    "audio": "32b",
                     "alert": "Even though you may not have a lot of time, always make sure no personal info such as your home address, credit cards, or mail is shown in the background before you post a video. Whether your video goes viral or not, it is unsafe to have those personal details out for the public to see, and can be dangerous for you and your family.",
                     "action": "12.1",
                     "score": "1"
                 },
                 {
                     "text": "Check area and move items that show personal info.",
-                    "audio": "",
+                    "audio": "32c",
                     "alert": "Before you post a video, make sure no personal info such as your home address, credit cards, or mail is shown in the background. Whether your video goes viral or not, it is unsafe to have those personal details out for the public to see, and can be dangerous for you and your family.",
                     "action": "12.1",
                     "score": "0"

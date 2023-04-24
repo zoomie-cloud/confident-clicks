@@ -6,6 +6,7 @@ import {
   chooseOption,
   changeScore,
   visitOption,
+  changeAudio,
 } from "../hooks/actions";
 import { GlobalContext } from "../hooks/provider";
 import { useNavigate } from "react-router-dom";
@@ -34,9 +35,12 @@ function Options({ options }) {
 
     if (option.alert) {
       dispatch(toggleModal());
+
     } else {
       dispatch(changeQuestion(option.action));
     }
+
+    dispatch(changeAudio(option.audio))
   }
 
   function getButtonSize(count) {

@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Intro, Rules } from "./containers";
+import { SoundPlayer } from "./components";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,7 @@ root.render(
   <React.StrictMode>
     <GlobalProvider>
       <RouterProvider router={router} />
+      <SoundPlayer />
     </GlobalProvider>
   </React.StrictMode>
 );

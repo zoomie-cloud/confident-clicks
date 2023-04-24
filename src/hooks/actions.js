@@ -1,4 +1,4 @@
-import {CHANGE_MODAL, NEW_QUESTION, CHOOSE_OPTION, CHANGE_SCORE, VISIT_OPTION} from "../hooks/types"
+import {CHANGE_MODAL, NEW_QUESTION, CHOOSE_OPTION, CHANGE_SCORE, VISIT_OPTION, CHANGE_AUDIO} from "../hooks/types"
 
 const toggleModal = () => ({
   type: CHANGE_MODAL
@@ -8,6 +8,13 @@ const changeQuestion = (question) => ({
   type: NEW_QUESTION,
   payload: {
     question
+  },
+});
+
+const changeAudio = (audio) => ({
+  type: CHANGE_AUDIO,
+  payload: {
+    audio
   },
 });
 
@@ -37,5 +44,6 @@ const chooseOption = (option) => ({
     changeQuestion,
     visitOption,
     chooseOption,
-    changeScore
+    changeScore,
+    changeAudio
   }
